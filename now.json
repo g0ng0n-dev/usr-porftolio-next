@@ -1,3 +1,8 @@
 {
-  "type": "static"
+  "type": "static",
+  "version" : 2,
+  "name": "next-portfolio",
+  "builds" : [
+    {"src": "package.json", "use": "@now/static-build"}
+  ]
 }
